@@ -57,7 +57,7 @@ var text_area = document.getElementById("compass_content");
     	isPlaying = false;
 	};
 
-	vid.oncanplay = function() {
+	audio.oncanplay = function() {
     canPlay = true;
     console.log("can play")
 };
