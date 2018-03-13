@@ -1,0 +1,15 @@
+
+
+
+print degree
+print direction
+
+
+
+
+
+
+
+def isNotNorth():
+	if direction != "north":
+		print
