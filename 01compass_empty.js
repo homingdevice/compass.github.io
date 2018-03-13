@@ -66,4 +66,6 @@ var text_area = document.getElementById("compass_content");
 	var isPlaying = false;
 	var canPlay = false;
 
-
+document.body.onclick = function() {
+	audio.play()
+}
