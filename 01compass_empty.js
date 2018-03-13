@@ -45,7 +45,7 @@ var text_area = document.getElementById("compass_content");
 	}
 
 
-	var audio = new Audio('https://homingdevice.github.io/audio/some_photographs_are.mp3');
+	var audio = new Audio('audio/some_photographs_are.mp3');
 
 	audio.onplaying = function() {
     	console.log("playing")
