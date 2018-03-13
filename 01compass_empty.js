@@ -11,6 +11,7 @@ oriented = function(e) {
 
         if (compassHeading > 315 || compassHeading < 45) {
          text_area.textContent = "some photographs are";
+         	audio.play();
         }
 
         if (compassHeading >= 45 && compassHeading < 135) {
@@ -42,5 +43,16 @@ var text_area = document.getElementById("compass_content");
             text_area.textContent = "empty compass";
         
 	}
+
+
+	var audio = new Audio('audio/some_photographs_are.mp3');
+
+	audio.onplaying = function() {
+    	console.log("playing")
+};
+
+	audio.onended = function() {
+    	alert("The audio has ended");
+	};
 
 
