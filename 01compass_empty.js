@@ -69,3 +69,5 @@ var text_area = document.getElementById("compass_content");
 document.body.onclick = function() {
 	audio.play()
 }
+
+console.log("updated")
