@@ -59,6 +59,7 @@ var text_area = document.getElementById("compass_content");
 
 	vid.oncanplay = function() {
     canPlay = true;
+    console.log("can play")
 };
 
 	var isPlaying = false;
