@@ -60,7 +60,7 @@ var text_area = document.getElementById("compass_content");
 	audio.oncanplay = function() {
     canPlay = true;
     console.log("can play")
-    audio.play()
+  //  audio.play()
 };
 
 	var isPlaying = false;
